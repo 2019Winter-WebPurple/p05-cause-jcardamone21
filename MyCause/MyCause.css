@@ -1,0 +1,99 @@
+/*
+* Jennifer Cardamone
+* May 17, 2019
+* My Cause
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body properties here */
+body {
+    background-color: #cffcff;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    width: 85%;
+    margin: auto;
+}
+
+header { /* properties of header */
+    background-color: white;
+    color: #023cba;
+    font-size: 50px;
+}
+
+main { /* properties of main part of page */
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+}
+
+h1 { /* properties of h1 */
+    color: #6804ff;
+}
+
+h2 { /* properties of h2 */
+    color: #6804ff;
+}
+
+h3 { /* properties of h3 */
+    color: #6804ff;
+}
+
+#Gas { /* properties of the gas picture */
+    width: 300px; height: 200px;
+    float: right;
+    clear: both;
+    border: 2px dashed #6804ff;
+}
+
+#Edit { /* properties of the edit picture */
+    width: 150px; height: 150px;
+    clear: both;
+    border: 1px solid #6804ff;
+}
+
+#Chart { /* properties of the chart picture */
+    width: 250px; height: 150px;
+    clear: both;
+    border: 1px solid #6804ff;
+}
+
+#Bear { /* properties of the bear picture */
+    width: 250px; height: 150px;
+    clear: both;
+    border: 1px solid #6804ff;
+}
+
+#World { /* properties of the world picture */
+    width: 250px; height: 150px;
+    clear: both; 
+    border: 1px solid #6804ff;
+}
+
+#Regional { /* properties of the regional picture */
+    width: 300px; height: 200px;
+    float: right;
+    clear: both;
+    border: 2px dashed #6804ff;
+}
+
+a:link { /* propertiers of the links */
+    color: #ff0080;
+}
+
+a:visited { /* propertiers of the visted links */
+    color: #fd9cff;
+}
+
+a:hover, a:focus { /* propertiers of the links when hovered over */
+    font-size: 20px;
+    color: white;
+}
+
+ul, li{ /* properties of the lists */
+    list-style-position:inside;
+}
